@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light fallback variables for any legacy classes still used */
+:root{ --bg:#f7f9fc; --card:#ffffff; --muted:#64748b; --accent:#3B82F6 }
+body{ margin:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:#0f172a }
